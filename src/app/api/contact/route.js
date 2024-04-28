@@ -11,14 +11,14 @@ export async function POST(request) {
       service: "gmail",
 
       auth: {
-        user: "abhijitbaishya69@gmail.com",
-        pass: "tqmowyryhemwclqi",
+        user: process.env.EMAIL,
+        pass: process.env.PASSWORD,
       },
     });
 
     const info = await transporter.sendMail({
       from: `"${data.name}"`,
-      to: "abhijitbaishya69@gmail.com",
+      to: process.env.EMAIL,
       subject: `Inquiry from Website Contact Form`,
       text: "",
       html: `
@@ -85,7 +85,7 @@ export async function POST(request) {
     if (info.messageId) {
       return NextResponse.json({
         error: false,
-        message: "Message successfully sent! Thank you for contacting Edubaba",
+        message: "Message successfully sent! Thank you for Abhijit",
       });
     }
     return NextResponse.json({
