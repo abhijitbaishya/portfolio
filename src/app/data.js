@@ -93,4 +93,11 @@ export const DataArray = [
     des1: "This project was developed using, PHP, MySql, JavaScript, Ajax, Bootstrao 4 and many more!",
     images: ["/civil.png", "/civil2.png"],
   },
+  {
+    title: "Contractor and Construction management system",
+    name: "CRM",
+    des: "This comprehensive web application is designed to simplify and streamline the complexities of managing contractor and construction projects. With powerful tools to manage profiles, payments, invoices, and extensive data handling capabilities, it ensures efficiency and accuracy in handling construction workflows and client data. Track interactions with over 2500+ clients efficiently, ensuring a seamless relationship experience. Monitor all payments received from clients and outgoing payments to contractors and vendors. Generate, send, and track invoices with detailed breakdowns to ensure transparent financial management. Assign user roles (e.g., Admin, Employee, Vendor) to ensure controlled access to sensitive information",
+    des1: "This project was developed using JavaScript, Ajax, Google Auth, PHP and MySQL",
+    images: ["/crm.png", "/crm2.png"],
+  },
 ];
